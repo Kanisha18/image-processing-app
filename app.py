@@ -72,12 +72,7 @@ if uploaded_file is not None:
         "Grayscale",
         "Gaussian Blur",
         "Median Blur",
-        "Bilateral Filter",
         "Canny Edge Detection",
-        "Binary Thresholding",
-        "Adaptive Thresholding",
-        "Erosion",
-        "Dilation",
         "Histogram Equalization",
         "Color Space Conversion (HSV/LAB)",
         "Contrast Stretching",
@@ -99,12 +94,6 @@ if uploaded_file is not None:
     elif operation == "Median Blur":
         k = st.slider("Kernel Size", 1, 15, 3, step=2)
         processed_image = cv2.medianBlur(image, k)
-
-    elif operation == "Bilateral Filter":
-        d = st.slider("Diameter", 1, 15, 9)
-        sigma_color = st.slider("Sigma Color", 1, 200, 75)
-        sigma_space = st.slider("Sigma Space", 1, 200, 75)
-        processed_image = cv2.bilateralFilter(image, d, sigma_color, sigma_space)
 
     elif operation == "Canny Edge Detection":
         t1 = st.slider("Threshold1", 0, 255, 100)
