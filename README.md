@@ -8,7 +8,7 @@ Welcome to the **Image Processing and Pattern Analysis App**, a Streamlit-based 
 ## 🚀 Demo
 
 Check out the live demo hosted on **Streamlit Cloud**:  
-👉 [Click here to try the app]([https://your-streamlit-app-url](https://image-processing-app-tuycobkigejjdz9xxabtfi.streamlit.app/))
+👉 [Click here to try the app] :[https://your-streamlit-app-url](https://image-processing-app-tuycobkigejjdz9xxabtfi.streamlit.app/) 
 ---
 
 ## 📂 Features
